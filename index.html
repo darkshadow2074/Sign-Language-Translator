@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
+    <title>English-Contraction-Translator</title>
+</head>
+<body>
+    <nav class="navigation container">
+        <!-- <div class="nav-brand">Minion-Translaor</div> -->
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" id="about" href="#">About</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" id="translate" href="#">Translate</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="about">
+        <h1>About English Contraction Translator</h1>
+        <P>
+            Translate the English contraction forms (can't, I'm etc) to the expanded forms. A contraction is a shortened form of one or two words (one of which is usually a verb). In a contraction, an apostrophe takes the place of the missing letter or letters. Some contractions are: I'm (I am), can't (cannot), how's (how is), and Ma'am (Madam).</P>
+    </div>
+    <div class="translatorDiv">
+        <div class="translator">
+            <textarea name="text" id="text-translate" rows="10" placeholder="Enter Your Text"></textarea>
+        </div>
+        <button class="btn-submit">Translate</button>
+        <button class="btn-submit reset">Reset</button>
+        <div class="translator">
+            <textarea class="translated" name="text" id="text-translated" rows="10" placeholder="Your Text will appear here"></textarea>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
